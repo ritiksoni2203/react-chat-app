@@ -52,7 +52,7 @@ const Container = styled.div`
   display: grid;
   align-items: center;
   grid-template-columns: 5% 95%;
-  background-color: #080420;
+  background-color: #f3f1f1;
   padding: 0 2rem;
   @media screen and (min-width: 720px) and (max-width: 1080px) {
     padding: 0 1rem;
@@ -67,7 +67,7 @@ const Container = styled.div`
       position: relative;
       svg {
         font-size: 1.5rem;
-        color: #ffff00c8;
+        color: #6c6c63c8;
         cursor: pointer;
       }
       .emoji-picker-react {

@@ -66,7 +66,7 @@ const Container = styled.div`
   display: grid;
   grid-template-rows: 10% 75% 15%;
   overflow: hidden;
-  background-color: #080420;
+  background-color: #f3f1f1;
   .brand {
     display: flex;
     align-items: center;
@@ -76,7 +76,7 @@ const Container = styled.div`
       height: 2rem;
     }
     h3 {
-      color: white;
+      color: black;
       text-transform: uppercase;
     }
   }
@@ -99,8 +99,8 @@ const Container = styled.div`
       min-height: 5rem;
       cursor: pointer;
       width: 90%;
-      border-radius: 0.2rem;
-      padding: 0.4rem;
+      border-radius: 0.5rem;
+      padding: 1rem;
       display: flex;
       gap: 1rem;
       align-items: center;
@@ -112,17 +112,17 @@ const Container = styled.div`
       }
       .username {
         h3 {
-          color: white;
+          color: black;
         }
       }
     }
     .selected {
-      background-color: #9a86f3;
+      background-color: #e1deef;
     }
   }
 
   .current-user {
-    background-color: #0d0d30;
+    background-color: #f3f1f1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,7 +135,7 @@ const Container = styled.div`
     }
     .username {
       h2 {
-        color: white;
+        color: black;
       }
     }
     @media screen and (min-width: 720px) and (max-width: 1080px) {
