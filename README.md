@@ -1,15 +1,4 @@
-```
-Now rename env files from .env.example to .env
-```shell
-cd public
-mv .env.example .env
-cd ..
-cd server
-mv .env.example .env
-cd ..
-```
-
-Now install the dependencies
+Install the dependencies
 ```shell
 cd server
 yarn
